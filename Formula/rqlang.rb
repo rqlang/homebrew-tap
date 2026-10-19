@@ -5,23 +5,23 @@ class Rqlang < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/rqlang/rq/releases/download/0.8.0/rq-macos-aarch64"
-      sha256 "a526cc783ade4db71949ca287d0223415b42d934afc5deb8a74b85f415f825ec"
+      url "https://github.com/rqlang/rq/releases/download/0.8.1/rq-macos-aarch64"
+      sha256 "13e74d52012d2813adf9412a2c3ef63c48fda9d9c98af0b3749f550adeeca06a"
     end
     on_intel do
-      url "https://github.com/rqlang/rq/releases/download/0.8.0/rq-macos-x86_64"
-      sha256 "60c2d3a4e6f672229566eb530ff8288ba152dddfc185787507bac0408b214b72"
+      url "https://github.com/rqlang/rq/releases/download/0.8.1/rq-macos-x86_64"
+      sha256 "a21f20ef8a4c372783ba3c7853fa53ddd81669425537cacd847bbe90546d6cee"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rqlang/rq/releases/download/0.8.0/rq-linux-aarch64"
-      sha256 "23ee5161b428af60116acdee3ec22b640728ab3611587812fd4143a769ee39b1"
+      url "https://github.com/rqlang/rq/releases/download/0.8.1/rq-linux-aarch64"
+      sha256 "c97bf9a17abec48e6d5a639b981cb8f3ea6f42a1d2861ae640d95270c3276e77"
     end
     on_intel do
-      url "https://github.com/rqlang/rq/releases/download/0.8.0/rq-linux-x86_64"
-      sha256 "0c73922eb8d44e27be2f5431759f16cf83acc95b4717789456054b7161fe207f"
+      url "https://github.com/rqlang/rq/releases/download/0.8.1/rq-linux-x86_64"
+      sha256 "8a562f0106d68035e91cefa6deb8e6d8022f987d0c5d7100fc0a21120cc63299"
     end
   end
 
